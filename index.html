@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="myjscode.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" id="submitForm">
+      <div id="info">
+        Name: <input type="text" id="name"/>
+        <span id="namespan"
+		style="display: none"
+		>Name is incorrect</span>
+      </div>
+	  
+      <div>Email <input type="text" id="email" class="" /></div>
+	  
+      <div>
+        Password: <input type="password" id="password" class="" />
+		<span
+          id="passspan"
+          style="display: none"
+          >Password length is short</span>
+      </div>
+	  
+      <div>
+        Confirm password:
+        <input type="password" id="confirm_password" class="" />
+        <span id="cpassspan" style="display: none">Password don't match</span>
+      </div>
+	  
+      <input type="submit" />
+    </form>
+  </body>
+</html>
